@@ -6,9 +6,7 @@ body {
 }
 
 section {
-  padding: 5px;
-  margin: 20px;
-  background-color:#f4a4c0
+  background-color:#000000
 }
 
 #projects {
@@ -16,10 +14,80 @@ section {
   margin: 0px;
 }
 
+#bar_1, #bar_2, #bar_3, #bar_4, #bar_5, #bar_6, #bar_7 {
+  padding: 0px;
+  margin: 0px;
+  background-color:#000000;
+  height: 50%;
+  
+}
+
+.bars {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+#bar_1 {
+  margin-right: 400px;
+  
+}
+
+#bar_2 {
+  margin-right: 200px;
+  animation-delay: 1s
+}
+
+#bar_5 {
+  margin-right: 250px;
+  animation-delay: 2.5s
+}
+
+#bar_6   {
+  margin-right: 300px;
+  animation-delay: 3s
+}
+
+#bar_4   {
+  margin-right: 500px;
+  animation-delay: 2s
+}
+
+#bar_3 {
+   margin-right: 600px;
+   animation-delay: 1.5s
+}
+
+#bar_7 {
+  margin-right: 100px;
+  animation-delay: 3.5s
+}
+
+
+
 h1 {
   text-align: center;
   font-size: 45px;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+}
+
+#name {
   color: white;
+  text-align: right;
+  margin-right: 50px;
+  padding-top: 15px;
 }
 
 h3 {
@@ -30,18 +98,19 @@ h3 {
 
 h4{
    text-align: center;
+  
 }
 .type {
   padding: 20px;
   margin: 20px;
-  background-color: #f4a4c0;
+  background-color: #e63b7a;
   color: white;
   display: flex;
   flex-direction: column;
 }
 
 #nav {
-   list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   font-size: 25px;
@@ -63,10 +132,15 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #e63b7a;
 }
 
-
+#about {
+  margin-top: 100px;
+  width : 50%;
+  margin-left: 325px;
+  margin-right: 325px;
+}
 
 h2  {
   font-size: 34px;
@@ -84,10 +158,16 @@ p {
   color: white;
 }
 
+ul {
+  color: white;
+  margin-left: 70px;
+  margin-right: 70px;
+
+}
+
 .about {
- margin-left: 325px;
-  margin-right: 325px;
   text-align: center;
+
 }
 
 h5 {
@@ -104,8 +184,7 @@ img {
 }
 
 #Mariam {
-  margin-left: 300px;
-
+  margin-left: 60px;
 }
 
 footer {
@@ -117,15 +196,9 @@ footer {
   background-color: #f4a4c0;
 }
 
-ul {
-  color: white;
-  margin-left: 350px;
-  margin-right: 350px;
-  
-}
-
 body{
-  background-color: #000000;
+  background-image: linear-gradient(to bottom right, #e63b7a, rgba(500,0,30,0), #e63b7a);
+
 }
 
 .hero
@@ -143,7 +216,7 @@ body{
   max-width: 400px;
 }
 .card {
-background-color: #000000;
+background-color: #e63b7a;
 }
 
 .card:hover {
@@ -155,6 +228,25 @@ a {
   color: white;
 }
 
+#Contact {
+  width: 50%;
+  margin-right: 325px;
+  margin-left: 325px;
+}
 
+.block_2 {
+  background-color: #000000;
+}
 
+#Ammal {
+  width:200%
+}
+
+#map {
+  width:130%
+}
+
+#ludo {
+  width: 100%
+}
 

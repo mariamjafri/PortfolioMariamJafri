@@ -1,43 +1,105 @@
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Projects</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-  </head>
-  <body>
-    
-    <section id="projects">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSSI's Top 10 Songs!</title>
+  <script src="https://use.fontawesome.com/5cd833ef09.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> 
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+ <body>
+
+  <section id="projects">
       <ul id="nav">
         <li class="click"><a href="index.html">Home</a></li>
         <li class="click"><a href="projects.html">Projects</a></li>
+       <!-- <li class="click"><a href="Interests.html">Interests</a></li> -->
         <li class = "click"><a href="topsongs.html">Songs</a></li>
       </ul>
     </section>
-  
-  <div class ="type">
-        <h4><a href = "https://mariam-umair-and-lana-the-ammal-foundation.lanaquach.repl.co"> Ammal Website</a></h4>
-        <img class ="proj" src="pictures/Untitled design-2.png" alt="Ammal Website logo">
-        <p>A website designed for Syrian refugees to find resources and informaiton in their new area, including prayer times, mosques near them, and halal food near them. </p>
-        <p>Designed during Google's Computer Science Summer Institute as a group project using HTML, CSS, JavaScript, API's and Bulma templates. </p>
-          
-      </div>
 
-      <div class ="type">
-        <h4><a href = "https://kcruz3.github.io"> That's So Mental </a></h4>
-        <img class ="proj" src="https://cdn.pixabay.com/photo/2018/04/19/01/47/mental-health-3332122_1280.png" alt="blue background with white head with colorful and squiggly lines for a brain">
-        <p> Analyzation of data from CDC on mental health and mental health treatment differences across different population characteristics in the U.S. including gender, race, and age to reveal gaps in mental health and treatments based on demographics.</p>
-        <p>Created as final project for Engineering Computing with partner through HTML and Python (plotly, JSON) </p>
+   <!-- HERO -->
+   <section class="hero has-text-centered">
+     <div class="hero-body">
+       <p class="title is-1 has-text-white">Projects</p>
+       <p class="subtitle is-size-3 has-text-white">My top hits</p>
+     </div>
+   </section>
+
+
+  <!-- ROW 2 -->
+  <div class="columns is-centered is-variable is-5">
+    <!-- COLUMN 1 -->
+    <div class="column is-one-quarter mt-4">
+      <!-- CARD 2.1-->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image">
+            <img id ="Ammal" src="/pictures/Untitled design-2.png"
+              alt="Ammal Logo" />
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4 has-text-white"> <a href="https://7ef95fe9-4a31-42de-a680-8e61f07e5f03-00-1jf5px9f1bjvy.worf.replit.dev/index.html"> Ammal Website</a> </p>
+            <p class="subtitle is-6 has-text-white">HTML, CSS, JavaScript</p>
+            <p class="subtitle is-6 has-text-white">Google Computer Science Summer Institute</p>
+          </div>
+        </div>
       </div>
-  
-      <div class ="type">
-        <h4>Ludo</h4>
-        <img class ="proj" src="https://p0.pxfuel.com/preview/921/753/115/gamble-playful-chance-picture.jpg" alt="side view of a ludo board with red side pieces on the foreground">
-        <p>Virtual boardgame of popular South Asian game, Ludo: a multiplayer game with many rules.</p>
-        <p>Developed as final project for Fundamentals of computing using C in Linux environment</p>
+    </div>
+
+    <!-- COLUMN 1 -->
+    <div class="column is-one-quarter mt-4">
+      <!-- CARD 2.1-->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image">
+            <img id="map" src="/pictures/milad-fakurian-58Z17lnVS4U-unsplash.jpg"
+              alt="That's So Mental" />
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4 has-text-white"> <a href="https://kcruz3.github.io"> That's So Mental </a> </p>
+            <p class="subtitle is-6 has-text-white">Python, HTML</p>
+            <p class="subtitle is-6 has-text-white">Engineering Computing</p>
+          </div>
+        </div>
       </div>
+    </div>
+
+    <!-- COLUMN 2 -->
+    <div class="column is-one-quarter mt-4">
+      <!-- CARD 2.2-->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image">
+            <img id = "ludo" src="/pictures/shaurya-sagar-5cwvT0BSgIY-unsplash.jpg" alt="Ludo Board Game" />
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">Ludo</p>
+            <p class="subtitle is-6 has-text-white">C</p>
+            <p class="subtitle is-6 has-text-white">Personal Project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+      
+</body>
+
 
       <footer>
       <p>Go back to the <a href="index.html">homepage</a></p>
     </footer>
-  </body>
 </html>
